@@ -9,6 +9,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.input.KeyboardType
 import devandroid.leof.listadetarefascompose.ui.theme.Black
 import devandroid.leof.listadetarefascompose.ui.theme.LightBlue
+import devandroid.leof.listadetarefascompose.ui.theme.Purple200
 import devandroid.leof.listadetarefascompose.ui.theme.ShapeEditText
 import devandroid.leof.listadetarefascompose.ui.theme.White
 
@@ -30,10 +31,10 @@ fun CaixaDeTexto(
         maxLines = maxLines,
         colors = TextFieldDefaults.outlinedTextFieldColors(
             textColor = Black,
-            focusedBorderColor = LightBlue,
-            focusedLabelColor = LightBlue,
-            backgroundColor = White,
-            cursorColor = LightBlue
+            unfocusedBorderColor = LightBlue,
+            unfocusedLabelColor = LightBlue,
+            backgroundColor = White ,
+            cursorColor = Purple200
         ),
         shape = ShapeEditText.small,
         keyboardOptions = KeyboardOptions(

@@ -45,7 +45,7 @@ fun SalvarTarefa(
                     )
                 }
             )
-        }
+        },backgroundColor = White,
     ) {
 
         var tituloTarefa by remember {
