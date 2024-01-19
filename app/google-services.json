@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "83553232219",
+    "project_id": "lista-de-tarefas-compose-213dc",
+    "storage_bucket": "lista-de-tarefas-compose-213dc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:83553232219:android:fd53f875e61257960ca67e",
+        "android_client_info": {
+          "package_name": "devandroid.leof.listadetarefascompose"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC5ltmkF9DRbMO5Lv3BW4WskqYz_OMxTKo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
